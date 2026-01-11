@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="NguyenCorpHR.Application/NguyenCorpHR.Application.csproj" />
+    <Project Path="NguyenCorpHR.Domain/NguyenCorpHR.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="NguyenCorpHR.Infrastructure.Persistence/NguyenCorpHR.Infrastructure.Persistence.csproj" />
+    <Project Path="NguyenCorpHR.Infrastructure.Shared/NguyenCorpHR.Infrastructure.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="NguyenCorpHR.WebApi/NguyenCorpHR.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="NguyenCorpHR.Application.Tests/NguyenCorpHR.Application.Tests.csproj" />
+    <Project Path="NguyenCorpHR.Infrastructure.Tests/NguyenCorpHR.Infrastructure.Tests.csproj" />
+    <Project Path="NguyenCorpHR.WebApi.Tests/NguyenCorpHR.WebApi.Tests.csproj" />
+  </Folder>
+</Solution>

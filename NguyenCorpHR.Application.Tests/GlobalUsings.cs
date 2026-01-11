@@ -1,0 +1,26 @@
+﻿global using AutoMapper;
+global using FluentAssertions;
+global using Moq;
+global using NguyenCorpHR.Application.Exceptions;
+global using NguyenCorpHR.Application.Features.Departments.Commands.CreateDepartment;
+global using NguyenCorpHR.Application.Features.Departments.Commands.DeleteDepartmentById;
+global using NguyenCorpHR.Application.Features.Departments.Commands.UpdateDepartment;
+global using NguyenCorpHR.Application.Features.Departments.Queries.GetDepartments;
+global using NguyenCorpHR.Application.Features.Employees.Commands.CreateEmployee;
+global using NguyenCorpHR.Application.Features.Employees.Commands.DeleteEmployeeById;
+global using NguyenCorpHR.Application.Features.Employees.Commands.UpdateEmployee;
+global using NguyenCorpHR.Application.Features.Employees.Queries.GetEmployees;
+global using NguyenCorpHR.Application.Features.Positions.Commands.CreatePosition;
+global using NguyenCorpHR.Application.Features.Positions.Commands.DeletePositionById;
+global using NguyenCorpHR.Application.Features.Positions.Commands.UpdatePosition;
+global using NguyenCorpHR.Application.Features.Positions.DTOs;
+global using NguyenCorpHR.Application.Features.Positions.Queries.GetPositions;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Commands.CreateSalaryRange;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Commands.DeleteSalaryRangeById;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Commands.UpdateSalaryRange;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Queries.GetSalaryRanges;
+global using NguyenCorpHR.Application.Interfaces;
+global using NguyenCorpHR.Application.Interfaces.Repositories;
+global using NguyenCorpHR.Application.Parameters;
+global using NguyenCorpHR.Domain.Entities;
+

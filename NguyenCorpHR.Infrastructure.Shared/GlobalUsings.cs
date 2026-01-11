@@ -1,0 +1,23 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using AutoBogus;
+global using Bogus;
+global using Bogus.DataSets;
+global using MailKit.Net.Smtp;
+global using MailKit.Security;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using MimeKit;
+global using NguyenCorpHR.Application.DTOs.Email;
+global using NguyenCorpHR.Application.Exceptions;
+global using NguyenCorpHR.Application.Interfaces;
+global using NguyenCorpHR.Domain.Entities;
+global using NguyenCorpHR.Domain.Enums;
+global using NguyenCorpHR.Domain.Settings;
+global using NguyenCorpHR.Infrastructure.Shared.Mock;
+global using NguyenCorpHR.Infrastructure.Shared.Services;
+

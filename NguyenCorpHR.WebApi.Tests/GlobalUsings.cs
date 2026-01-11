@@ -1,0 +1,25 @@
+﻿global using FluentAssertions;
+global using MediatR;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.DependencyInjection;
+global using Moq;
+global using NguyenCorpHR.Application.Common.Results;
+global using NguyenCorpHR.Application.Features.Departments.Commands.CreateDepartment;
+global using NguyenCorpHR.Application.Features.Departments.Queries.GetDepartmentById;
+global using NguyenCorpHR.Application.Features.Departments.Queries.GetDepartments;
+global using NguyenCorpHR.Application.Features.Employees.Commands.CreateEmployee;
+global using NguyenCorpHR.Application.Features.Employees.Commands.DeleteEmployeeById;
+global using NguyenCorpHR.Application.Features.Employees.Commands.UpdateEmployee;
+global using NguyenCorpHR.Application.Features.Employees.Queries.GetEmployeeById;
+global using NguyenCorpHR.Application.Features.Employees.Queries.GetEmployees;
+global using NguyenCorpHR.Application.Features.Positions.Commands.CreatePosition;
+global using NguyenCorpHR.Application.Features.Positions.Queries.GetPositions;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Commands.CreateSalaryRange;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Commands.UpdateSalaryRange;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Queries.GetSalaryRangeById;
+global using NguyenCorpHR.Application.Features.SalaryRanges.Queries.GetSalaryRanges;
+global using NguyenCorpHR.Application.Parameters;
+global using NguyenCorpHR.Domain.Entities;
+global using NguyenCorpHR.WebApi.Controllers.v1;
+
